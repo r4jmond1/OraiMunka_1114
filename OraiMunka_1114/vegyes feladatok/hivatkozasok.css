@@ -1,0 +1,19 @@
+ /* olyan hivatkozás, amire még sosem kattintottak */
+a:link {
+  color: #FF0000;
+}
+
+/* már legalább egyszer rákattintottak */
+a:visited {
+  color: #00FF00;
+}
+
+/* egér ráhúzás */
+a:hover {
+  color: #FF00FF;
+}
+
+/* éppen kattintás alatt lévő, kiválasztás alatt */
+a:active {
+  color: #0000FF;
+} 
